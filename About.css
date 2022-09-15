@@ -1,0 +1,52 @@
+.presentation {
+    background-color: dimgrey;
+    color: white;
+    overflow: auto;
+}
+
+#imgjb {
+    width: 350px;
+    height: 500px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#prenomnom {
+    font-size: 80px;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-top: 12%;
+    margin-left: 37%;
+}
+
+a {
+    color:darkviolet;
+    margin-left: 10px
+}
+
+a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.txt {
+    font-family: sans-serif;
+    border-style: none;
+    background-color: #a6d9f4;
+    margin: 20px;
+    color: #0e4f71;
+    overflow: auto;
+}
+
+.motivation {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#title {
+    margin-top: 20px;
+}

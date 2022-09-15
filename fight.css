@@ -1,0 +1,90 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introFight {
+    font-family: serif;
+    border-style: none;
+    border-radius: 40px;
+    width: 50%;
+    background-color: #e90c11;
+    margin: auto;
+    padding: 10px;
+    color: white;
+}
+
+input[id^="spoiler"]{
+ display: none;
+}
+input[id^="spoiler"] + label {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  padding: 5px 20px;
+  background: red;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all .6s;
+}
+input[id^="spoiler"]:checked + label {
+  color: red;
+  background: #fff;
+}
+input[id^="spoiler"] ~ .spoiler {
+  width: 90%;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin: 10px auto 0; 
+  padding: 10px; 
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: all .6s;
+}
+input[id^="spoiler"]:checked + label + .spoiler{
+  height: auto;
+  opacity: 1;
+  padding: 10px;
+}
+
+.about {
+    font-family: cursive;
+    color: red;
+}
+
+.about a {
+    color: red;
+}
+
+.about a:visited {
+    color: red;
+}
+
+.about a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.img {
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+.img img {
+    padding:5px;
+    border:5px solid red;
+    background-color:white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+}
